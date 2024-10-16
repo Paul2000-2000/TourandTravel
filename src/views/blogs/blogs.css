@@ -1,0 +1,25 @@
+.blogs{
+    width: 100%;
+}
+
+.blogs-content{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogs-hb{
+    padding-left: 8%;
+    padding-top: 5%;
+    
+}
+
+#blogs-hb-h{
+    padding-left: 25px;
+    border-left: solid 7px var(--primary-color);
+}
+
+#blogs-hb-h{
+    margin-bottom: 25px;
+}
