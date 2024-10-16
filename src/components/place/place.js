@@ -9,9 +9,9 @@ const place = ({ id, city, country, description, image, price }) => {
       <p id="place-country">{country}</p>
       <p id="place-desc">{description.slice(0, 45)}...</p>
 
-      <div>
+      <div className="place-div">
         <p>Cultural Relax</p>
-        <p>{price}</p>
+        <p id="place-div-price">${price}</p>
       </div>
     </div>
   );
