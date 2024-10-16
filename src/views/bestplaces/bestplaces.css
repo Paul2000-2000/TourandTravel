@@ -1,0 +1,22 @@
+.places{
+    width: 100%;
+}
+
+.places-content{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places-hb{
+    padding-left: 8%;
+    padding-top: 5%;
+    
+}
+
+#places-hb-h{
+    padding-left: 25px;
+    border-left: solid 7px var(--primary-color);
+    margin-bottom: 25px;
+}

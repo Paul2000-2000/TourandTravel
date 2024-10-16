@@ -1,14 +1,15 @@
 import React from "react";
 import Place from "../../components/place/place.js";
 import data from "./../../data/dataplace.js";
+import "./bestplaces.css";
 
 const bestplaces = () => {
   return (
-    <div className="blogs">
-      <div className="blogs-hb">
-        <h1 id="blogs-hb-h"> Our Latest Blogs</h1>
+    <div className="places">
+      <div className="places-hb">
+        <h1 id="places-hb-h">Best Places to Visit</h1>
       </div>
-      <div className="blogs-content">
+      <div className="places-content">
         {data.map((place) => (
           <Place
             key={place.id}
