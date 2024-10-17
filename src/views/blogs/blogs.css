@@ -1,5 +1,6 @@
 .blogs{
     width: 100%;
+    margin-top: 40px;
 }
 
 .blogs-content{
@@ -11,8 +12,7 @@
 
 .blogs-hb{
     padding-left: 8%;
-    padding-top: 5%;
-    
+
 }
 
 #blogs-hb-h{

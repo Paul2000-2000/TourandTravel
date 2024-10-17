@@ -1,0 +1,14 @@
+.aboutpage-content{
+    padding: 0 8%;
+}
+
+#about-hb-h{
+    padding-left: 25px;
+    border-left: solid 7px var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.about-p{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
