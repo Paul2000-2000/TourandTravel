@@ -76,6 +76,7 @@
 }
 
 #content-destination-but{
+    margin-top: 2px;
     position: relative;
     height: 35px;
     width: 100px;
