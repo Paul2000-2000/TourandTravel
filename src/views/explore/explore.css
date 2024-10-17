@@ -1,0 +1,58 @@
+.explore{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#exploreimg{
+    width: 350px;
+    height: 275px;
+    object-fit: cover;
+}
+
+.explore-content{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 480px;
+}
+
+#explore-content-title{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+#explore-content-desc{
+    font-size: 15px;
+    color: #888;
+    
+}
+
+.explore-content-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.explore-content-options-option{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 35%;
+}
+
+.explore-icons{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    background-color: #b6c7e3;
+    border-radius: 25px;
+}

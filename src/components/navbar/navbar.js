@@ -13,7 +13,7 @@ const navbar = () => {
         <img src={Logo} alt="" id="logo" />
         <ul className="nav2-ul">
           <li className="nav2-ul-li">Home</li>
-          <li className="nav2-ul-li">Blog</li>
+          <li className="nav2-ul-li">Blogs</li>
           <li className="nav2-ul-li">Best Places</li>
           <li className="nav2-ul-li">About</li>
           <li className="nav2-ul-li">Quick Links</li>
