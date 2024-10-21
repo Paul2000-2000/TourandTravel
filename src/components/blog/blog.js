@@ -1,9 +1,9 @@
 import React from "react";
 import "./blog.css";
 
-const blog = ({ id, date, title, description, image }) => {
+const blog = ({ onClick, id, date, title, description, image }) => {
   return (
-    <div className="blog" key={id}>
+    <div className="blog" key={id} onClick={onClick}>
       <img src={image} alt="" id="blog-img" />
       <div className="blog-div">
         <p>{date}</p>

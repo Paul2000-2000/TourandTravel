@@ -1,8 +1,9 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
+import { NavLink, Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav1">
@@ -12,11 +13,57 @@ const navbar = () => {
       <div className="nav2">
         <img src={Logo} alt="" id="logo" />
         <ul className="nav2-ul">
-          <li className="nav2-ul-li">Home</li>
-          <li className="nav2-ul-li">Blogs</li>
-          <li className="nav2-ul-li">Best Places</li>
-          <li className="nav2-ul-li">About</li>
-          <li className="nav2-ul-li">Quick Links</li>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav2-ul-li-active" : "nav2-ul-li"
+              }
+              end
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/blogs"
+              className={({ isActive }) =>
+                isActive ? "nav2-ul-li-active" : "nav2-ul-li"
+              }
+            >
+              Blogs
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/bestplaces"
+              className={({ isActive }) =>
+                isActive ? "nav2-ul-li-active" : "nav2-ul-li"
+              }
+            >
+              Best Places
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "nav2-ul-li-active" : "nav2-ul-li"
+              }
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav2-ul-li-active" : "nav2-ul-li"
+              }
+            >
+              Quick Links
+            </NavLink>
+          </li>
         </ul>
         <button id="nav2-but">Book Now</button>
       </div>
@@ -24,4 +71,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
