@@ -46,7 +46,17 @@
 
 .nav2-ul-li{
     cursor: pointer;
+    text-decoration: none; 
+    color: inherit; 
 }
+
+.nav2-ul-li-active{
+    cursor: pointer;
+    text-decoration: none; 
+    color: blue; 
+}
+
+
 
 #nav2-but{
     width: 95px;

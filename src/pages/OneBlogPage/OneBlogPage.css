@@ -1,0 +1,19 @@
+
+
+.oneblog-image{
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+}
+
+.oneblog-content{
+    padding: 0 8%;
+}
+
+#oneblog-content-auth{
+    margin: 5px 0;
+}
+
+#oneblog-content-title{
+    margin-bottom: 25px;
+}

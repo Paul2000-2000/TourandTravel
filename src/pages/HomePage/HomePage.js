@@ -17,7 +17,7 @@ const HomePage = () => {
       <Blog />
       <img src={SecondImage} alt="" className="homepageimages" />
       <Explore />
-      <QuickLinks />
+      <QuickLinks id="quicklinks" />
     </div>
   );
 };
