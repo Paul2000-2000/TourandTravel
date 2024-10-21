@@ -1,9 +1,21 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import ModalEx from "../../components/Modal/Modal.js";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open modal when "Book Now" is clicked
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close modal when user accepts/declines
+  };
+
   return (
     <div className="navbar">
       <div className="nav1">
@@ -65,8 +77,14 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <button id="nav2-but">Book Now</button>
+        <button id="nav2-but" onClick={openModal}>
+          Book Now
+        </button>
       </div>
+
+      {isModalOpen && (
+        <ModalEx isOpen={isModalOpen} onClose={closeModal} /> // Pass modal state and close function as props
+      )}
     </div>
   );
 };
