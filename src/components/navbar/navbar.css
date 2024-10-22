@@ -56,6 +56,9 @@
     color: blue; 
 }
 
+#div-nav2-res-icon{
+    display: none;
+}
 
 
 #nav2-but{
@@ -66,4 +69,89 @@
     border: none;
     background-color: var(--secondary-color);
     cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+
+    .nav2{
+        padding: 0 5%;
+    }
+    .nav2-ul{
+        display: none;
+    }
+
+    .div-nav2-res{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #div-nav2-res-icon{
+        display: inline;
+    }
+
+    .resp-nav2-elements{
+        padding-top: 7%;
+        padding-left: 5%;
+        background-color: white;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        z-index: 1555;
+        transition: top 0.5s ease, opacity 0.5s ease; 
+    }
+
+    .resp-nav2-elements-person{
+        display: flex;
+        align-items: center;
+        margin-bottom: 55px;
+    }
+
+    #resp-nav2-elements-person-icon{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .resp-nav2-elements-person-text{
+        color: grey;
+    }
+    
+
+    .resp-nav2-ul{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .nav2-ul-li{
+        font-size: 25px;
+    }
+
+    .nav2-ul-li-active{
+        font-size: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 620px){
+
+    .navbar{
+        height: 75px;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .nav2{
+        height: 100%;
+        padding: 10px 5%;
+    }
 }

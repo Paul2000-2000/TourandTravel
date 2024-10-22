@@ -28,3 +28,23 @@
 #blog-desc{
     font: 14px;
 }
+
+@media screen and (max-width: 780px) {
+
+    .blog{
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .blog{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .blog{
+        width: 95%;
+    }
+}

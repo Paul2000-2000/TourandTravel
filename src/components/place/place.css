@@ -19,6 +19,7 @@
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: solid 1px #acafb5;
 }
 
@@ -38,4 +39,24 @@
 #place-div-price{
     font-weight: 900;
     font-size: 24px;
+}
+
+@media screen and (max-width: 780px) {
+
+    .place{
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .place{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .place{
+        width: 95%;
+    }
 }

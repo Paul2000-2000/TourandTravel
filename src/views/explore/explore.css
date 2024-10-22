@@ -56,3 +56,26 @@
     background-color: #b6c7e3;
     border-radius: 25px;
 }
+
+
+@media screen and (max-width: 620px){
+    .explore{
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start ;
+    }
+
+    #exploreimg
+    {
+        align-self: center;
+        width: 75%;
+        height: 55%;
+        object-fit: cover;
+    }
+
+    .explore-content{
+        width: 100% !important;
+    }
+    
+}
