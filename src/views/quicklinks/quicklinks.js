@@ -43,7 +43,8 @@ const quicklinks = () => {
               <FaLinkedin style={{ width: "25px", height: "25px" }} />
             </div>
           </div>
-          <div className="quicklinks-content-first-div ">
+
+          <div className="quicklinks-content-first-div try">
             <h2 className="quicklinks-content-first-div-title">
               Important Links
             </h2>
@@ -64,7 +65,7 @@ const quicklinks = () => {
               <p className="quicklinks-content-first-div-item">Blogs</p>
             </div>
           </div>
-          <div className="quicklinks-content-first-div ">
+          <div className="quicklinks-content-first-div try">
             <h2 className="quicklinks-content-first-div-title">
               Important Links
             </h2>

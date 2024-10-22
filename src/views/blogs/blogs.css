@@ -21,3 +21,15 @@
     margin-bottom: 25px;
 }
 
+@media screen and (max-width: 780px) {
+
+    .blogs-hb{
+        padding-left: 3%;
+        
+    }
+
+    .blogs-content{
+       gap: 15px;
+    }
+
+}

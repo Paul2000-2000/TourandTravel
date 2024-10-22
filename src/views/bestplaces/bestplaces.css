@@ -19,3 +19,16 @@
     border-left: solid 7px var(--primary-color);
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 780px) {
+
+    .places-hb{
+        padding-left: 3%;
+        
+    }
+
+    .places-content{
+       gap: 15px;
+    }
+
+}
